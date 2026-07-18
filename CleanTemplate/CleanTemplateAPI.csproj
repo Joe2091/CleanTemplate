@@ -11,4 +11,14 @@
     <PackageReference Include="Microsoft.OpenApi" Version="3.9.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="Middleware\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\CleanTemplate.Application.csproj" />
+    <ProjectReference Include="..\CleanTemplate.Infrastructure\CleanTemplate.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,3 +1,9 @@
 <Solution>
-  <Project Path="CleanTemplate/CleanTemplate.csproj" />
+  <Folder Name="/src/">
+    <Project Path="Application/CleanTemplate.Application.csproj" Id="fcc70942-0b0e-4e87-a496-9a088cc29d8d" />
+    <Project Path="CleanTemplate.Domain/CleanTemplate.Domain.csproj" Id="0f07faf8-3f7b-4c81-84b8-0970688fb872" />
+    <Project Path="CleanTemplate.Infrastructure/CleanTemplate.DataAccess.csproj" Id="3f083e91-977b-487a-ac8f-9be50a36d755" />
+    <Project Path="CleanTemplate/CleanTemplateAPI.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
 </Solution>
